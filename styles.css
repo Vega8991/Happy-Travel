@@ -21,3 +21,34 @@
             justify-content: space-between;
             align-items: center;
         }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 30px;
+            margin-right: 10px;
+        }
+        
+        .logo-text {
+            font-weight: bold;
+            color: #03337F;
+            font-size: 18px;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-right: 15px;
+        }
+
