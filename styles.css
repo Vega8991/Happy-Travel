@@ -1,138 +1,230 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-        
-        body {
-            background-color: #E9E9E9;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        header {
-            background-color: #fff;
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
 
-        .logo {
-            display: flex;
-            align-items: center;
-        }
-        
-        .logo img {
-            height: 30px;
-            margin-right: 10px;
-        }
-        
-        .logo-text {
-            font-weight: bold;
-            color: #03337F;
-            font-size: 18px;
-        }
-        
-        nav {
-            display: flex;
-            align-items: center;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-        
-        nav ul li {
-            margin-right: 15px;
-        }
+body {
+    background-color: #e9e9e9;
+}
 
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-size: 14px;
-        }
-        
-        .auth-buttons {
-            display: flex;
-            gap: 10px;
-        }
-        
-        .btn-signup {
-            background-color: #03337F;
-            color: white;
-            border: none;
-            padding: 8px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-        .btn-login {
-            background-color: transparent;
-            color: #03337F;
-            border: none;
-            padding: 8px 15px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        
-        .hero {
-            position: relative;
-            height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            text-align: center;
-            background-color: #90BFF0;
-        }
-        .hero-img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: 1;
-        }
-        
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-        
-        .hero h1 {
-            font-size: 32px;
-            margin-bottom: 30px;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
-        }
-        
-        .hero .btn-explore {
-            background-color: white;
-            color: #03337F;
-            border: none;
-            padding: 10px 30px;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        
-        .travel-options {
-            padding: 40px 20px;
-            background-color: #E9E9E9;
-        }
-        
-        .travel-title {
-            text-align: center;
-            color: #03337F;
-            font-size: 24px;
-            margin-bottom: 30px;
-        }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #daf0ff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-weight: bold;
+    color: #03337f;
+    font-size: 18px;
+}
+
+.logo .travel {
+    color: #90bff0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #03337f;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-signup {
+    background-color: #03337f;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-login {
+    background-color: #fff;
+    color: #03337f;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.hero .btn-explore {
+    background-color: #90bff0;
+    color: #03337f;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 140px;
+    align-self: center;
+}
+
+.travel-options {
+    padding: 40px 20px;
+    background-color: #e9e9e9;
+}
+
+.travel-title {
+    text-align: center;
+    color: #03337f;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.option-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.option-card {
+    background-color: #daf0ff;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.option-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.option-img {
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.option-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.option-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.destinations {
+    padding: 40px 20px;
+    background-color: #e9e9e9;
+    text-align: center;
+}
+
+.destinations h2 {
+    color: #03337f;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.destination-item {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.destination-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
