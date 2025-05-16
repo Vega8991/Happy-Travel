@@ -107,3 +107,32 @@
             position: relative;
             z-index: 2;
         }
+        
+        .hero h1 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+        
+        .hero .btn-explore {
+            background-color: white;
+            color: #03337F;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        
+        .travel-options {
+            padding: 40px 20px;
+            background-color: #E9E9E9;
+        }
+        
+        .travel-title {
+            text-align: center;
+            color: #03337F;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
