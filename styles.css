@@ -230,10 +230,11 @@ nav ul li a {
 }
 
 footer {
-    background-color: #03337f;
-    color: white;
+    background-color: #90BFF0;
+    color: #03337F;
     padding: 20px;
     text-align: center;
+    font-weight: bold;
 }
 
 .social-icons {
@@ -244,10 +245,10 @@ footer {
 }
 
 .social-icon {
-    width: 24px;
-    height: 24px;
+    width: 34px;
+    height: 34px;
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 15px;
 }
