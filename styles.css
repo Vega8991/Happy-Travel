@@ -161,7 +161,6 @@ nav ul li a {
     gap: 20px;
     width: 1000px;
     margin: auto;
-
 }
 
 .option-card {
@@ -178,7 +177,7 @@ nav ul li a {
     flex: 2;
     width: 200px;
     height: 300px;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 20px;
 }
 
@@ -230,9 +229,26 @@ nav ul li a {
     object-fit: cover;
 }
 
+.destination-select {
+    display: flex;
+    margin: 30px auto 0 auto;
+    padding: 10px 15px;
+    border: 2px solid #4db8ff;
+    border-radius: 10px;
+    background-color: #DAF0FF;
+    font-size: 16px;
+    width: 250px;
+}
+
+.destination-select:focus {
+    outline: none;
+    border-color: #0099ff;
+    box-shadow:  1px 1px 1px #333;
+}
+
 footer {
-    background-color: #90BFF0;
-    color: #03337F;
+    background-color: #90bff0;
+    color: #03337f;
     padding: 20px;
     text-align: center;
     font-weight: bold;
