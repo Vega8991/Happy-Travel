@@ -1,6 +1,6 @@
-# Proyecto Digitalización
+# Happy Travel
 
-Welcome to **Proyecto Digitalización**!  
+Welcome to **Happy Travel**!  
 This is a simple web project to help digitalize information or services. It was made using **HTML** and **CSS**, two basic tools to build web pages.
 
 The goal is to create a clean and modern design that works on different devices like computers, tablets, and phones.
